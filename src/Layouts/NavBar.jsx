@@ -10,12 +10,12 @@ const NavBar = () => {
   const toggleMobileMenu = () => setNavState(!navState)
   return (
     <>
-      <div className="fixed w-screen z-10 bg-blue-200 p-5">
-        <div className="w-full h-full px-[20px] flex justify-between items-center">
+      <div className="fixed h-[80px] w-screen z-10 bg-blue-200 p-3">
+        <div className="w-full h-full px-[20px] flex justify-between items-center align-middle">
           <div className="flex items-center">
-            <h1 className="text-lg p-4 pr-2 bg-white text-zinc-700 font-bold rounded sm:text-2xl">
+            <h1 className="text-base p-3 pr-2 bg-white text-zinc-700 font-bold rounded sm:text-xl">
               PeeK
-              <span className="p-3 bg-zinc-700 text-white ml-3 rounded">
+              <span className="p-2 bg-zinc-700 text-white ml-3 rounded">
                 hOstiNg
               </span>
             </h1>
