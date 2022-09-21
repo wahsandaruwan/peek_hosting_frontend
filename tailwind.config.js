@@ -9,7 +9,7 @@ module.exports = {
       'md': '768px',
       // => @media (min-width: 768px) { ... }
 
-      'lg': '1120px',
+      'lg': '1100px',
       // => @media (min-width: 1024px) { ... }
 
       'xl': '1280px',
@@ -21,7 +21,7 @@ module.exports = {
     fontSize: {
       'xs': '.75rem',
       'sm': '.875rem',
-      'tiny': '.875rem',
+      'tiny': '.925rem',
       'base': '1rem',
       'lg': '1.125rem',
       'xl': '1.25rem',
