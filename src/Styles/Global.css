@@ -9,7 +9,7 @@
   }
 
   li {
-    @apply text-base p-2 m-2 cursor-pointer;
+    @apply text-base p-3 mx-2 cursor-pointer;
   }
 
   button {
