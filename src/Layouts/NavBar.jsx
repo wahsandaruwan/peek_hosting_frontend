@@ -6,7 +6,7 @@ const NavBar = () => {
   // Navbar state
   const [navState, setNavState] = useState(false)
 
-  //   Toggle mobie menu
+  // Toggle mobie menu
   const toggleMobileMenu = () => setNavState(!navState)
   return (
     <>
